@@ -4,27 +4,26 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+      sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
+      flutter:
+            sdk: flutter
+      geolocator: ^5.1.5
 
-  cupertino_icons: ^0.1.2
+      cupertino_icons: ^0.1.2
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
+      flutter_test:
+            sdk: flutter
 
 flutter:
+      uses-material-design: true
+      assets:
+            - images/
 
-  uses-material-design: true
-  assets:
-    - images/
-
-  fonts:
-  - family: Spartan MB
-    fonts:
-    - asset: fonts/SpartanMB-Black.otf
-      weight: 900
+      fonts:
+            - family: Spartan MB
+              fonts:
+                    - asset: fonts/SpartanMB-Black.otf
+                      weight: 900
